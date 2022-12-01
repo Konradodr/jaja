@@ -1,0 +1,67 @@
+html, body {
+  height: auto;
+  width: auto;
+  background-color: #B5D5FF;
+  color: black;
+}
+header{
+  border: 4px solid black;
+  border-radius: 5px;
+}
+main{
+  border: 4px solid black;
+  border-radius: 5px;
+}
+footer{
+  border: 4px solid black;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+}
+hr{
+  background-color: #00FA9A;
+  height : 4px;
+}
+
+.listy{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.tło{
+  background-image: url("https://wyjade.pl/resources/miejsca/76/mury-zamku-o-zachodzie-slonca.jpg");
+  size: cover;
+  
+}
+table, tr, td, th{
+  border: 4px solid black ;
+  padding: 2px;
+  
+}
+button
+{
+  height: 55px;
+  width: 100px;
+padding:10px;
+  margin:5px;
+  background-color: gold;
+}
+.przyciski
+{
+  display : flex;
+  justify-content: space-around;
+
+  
+}
+.przyciski button:hover
+{
+background-color: #0000FF;
+height:60px;
+  width:105px;
+
+  
+}
+
+
+
